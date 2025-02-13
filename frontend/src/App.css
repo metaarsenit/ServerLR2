@@ -1,0 +1,46 @@
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form_body {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.form_value {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 5px 10px 5px;
+  justify-content: space-between;
+  align-items: center;
+  height: min-content;
+}
+
+.input {
+  width: 70%;
+  height: min-content;
+}
+
+h1 {
+  align-self: center;
+}
+
+.button {
+  margin-top: 10px;
+  width: 60%;
+  align-self: center;
+}
+
+.main {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
